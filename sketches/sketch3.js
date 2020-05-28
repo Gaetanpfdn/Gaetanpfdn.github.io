@@ -20,7 +20,7 @@ let layerCursor;
 
 function preload() {
   myFont = loadFont('assets/BentonSansF-Bold.otf');
-  bottom = loadImage('assets/images/bottom.png');
+  bottom = loadImage('assets/images/Bottom.png');
   img = loadImage('assets/images/helmet.png');
 }
 
