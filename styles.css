@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "BentonSansF-Bold";
+  src: url("assets/BentonSansF-Bold.otf");
+
+  font-family: "BentonSansF-Book";
+  src: url("assets/BentonSansF-Book.otf");
+
+  font-family: "BentonSansF-ExtraLight";
+  src: url("assets/BentonSansF-ExtraLight.otf");
+
+  font-family: "Hagrid-Text-Extrabold-trial";
+  src: url("assets/Hagrid-Text-Extrabold-trial.otf");
+
+
+}
+
+header {
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+body {
+  padding: 0 5vw 0 5vw;
+  background-color: black;
+  overflow-x:hidden;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+footer{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+#footerText{
+  font-family: "BentonSansF-Bold";
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  font-family: "Hagrid-Text-Extrabold-trial";
+  font-style: normal;
+  font-size: 10vw;
+  color: white;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+h2 {
+  width: 100%
+  padding: 0.5vh 0 0.5vh 0;
+  font-family: "Hagrid-Text-Extrabold-trial";
+  font-size: 40px;
+  color: white;
+  text-decoration: inherit;
+  text-align: left;
+  border-top: solid #ffffff;
+  border-bottom: solid #ffffff;
+  transition: 0.5s;
+}
+
+h2:hover {
+  padding: 0.5vh 0 0.5vh 0;
+  font-family: "Hagrid-Text-Extrabold-trial";
+  font-size: 40px;
+  color: black;
+  text-align: left;
+  background-color: white;
+  transition: 0.5s;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: "BentonSansF-Bold";
+  font-family: sans-serif;
+  font-size: 32px;
+  color: black;
+  border-bottom: solid 3px #000000;
+}
+
+lottie-player {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a.subtitle {
+  font-family: "BentonSansF-Bold";
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+
+a.subtitle:hover {
+  margin-top: 1vh;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+
+
+.description {
+  padding: 5vh 15vw 2vh 15vw;
+  border-top: solid 3px #ffffff;
+  text-align: justify;
+  margin: 5vh 0 5vh 0;
+  font-family: "BentonSansF-ExtraLight";
+  font-family: sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+#defaultCanvas0 {
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  filter:invert(0);
+  transition: 0.5s;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  padding-right: 2vw;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255);
+  font-family: "BentonSansF-Book";
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+
+td:hover {
+  padding-right: 4vw;
+  padding-left: 2vw;
+}
+
+#galery {
+  margin-top: 10vh;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+img {
+  height: 620px;
+  width: 400px;
+  border-radius: 3pt;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+img:hover {
+  height: 660px;
+  width: 425px;
+  border-radius: 8pt;
+  transition: 0.3s;
+  display: inline-block;
+  filter: drop-shadow(-10px 0px 0px #05FF00);
+  transition: 0.3s;
+}
+.guidelines{
+  border: solid 3px #ffffff;
+  border-radius: 8pt;
+  margin-bottom: 5vh;
+  padding: 20px;
+  width :100%;
+  color: black;
+  float: left;
+  display: inline-block;
+  background-color: white;
+}
+.guidelines p {
+  margin: 0 0 0 0;
+  padding-left: 2vw ;
+  display: inline-block;
+  text-align: justify;
+  font-family: "BentonSansF-ExtraLight";
+  font-family: sans-serif;
+  font-size: 24px;
+}
+#filterBar{
+  margin-top: 5vh;
+  padding-left: 2vw ;
+  display:block;
+}
+#filterBar p{
+  font-family: "BentonSansF-Book";
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  margin: 0 0 2vh 0;
+  width: 100%;
+  padding: 0
+}
+
+.filter {
+  display: inline-block;
+  background-color: black;
+  color : white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4pt;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+#filter1:hover , #filter2:hover , #filter3:hover {
+  background-color: #69f154;
+  color : black;
+  border: solid 2px black;
+  transition: 0.5s;
+}
+#filter1:focus , #filter2:focus , #filter3:focus {
+  background-color: white;
+  color : black;
+  border: solid 2px black;
+  transition: 0.5s;
+  outline: none;
+}
+#dropzone {
+  display: block;
+  padding: 2vh 0 2vh 2vw ;
+  width: auto;
+  border-style:dashed;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* .bleu{
+  color: #4285f4;
+}
+.rouge{
+color:#ea4334;
+}
+.jaune{
+color: #fbbd2f;
+}
+.vert{
+color:#3ca853;
+} */
+
+/* --------------- ANIMATION ---------------- */
